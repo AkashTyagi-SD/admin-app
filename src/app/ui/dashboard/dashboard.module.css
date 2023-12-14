@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    gap:10px;
+    grid-template-columns: 2fr 10fr;
+    grid-template-areas: 
+    "menu content";
+}
+
+.main-head {
+    grid-area: header;
+}
+.menu {
+    grid-area: menu;
+}
+.content {
+    grid-area: content;
+}
