@@ -11,7 +11,10 @@
 }
 .menu {
     grid-area: menu;
+    background-color: var(--bgSoft);
+    padding: 20px;
 }
 .content {
     grid-area: content;
+    padding: 20px;
 }
