@@ -1,7 +1,11 @@
 {
-  "name": "akash-multipurpose-app",
+  "name": "contacts-app",
   "version": "0.1.0",
   "private": true,
+  "description": "google-contacts-app-clone",
+  "author": {
+    "name": "Akash Tyagi"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,7 +13,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^5.7.1",
     "next": "14.0.4",
+    "prisma": "^5.7.1",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^4.12.0"
